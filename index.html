@@ -32,16 +32,30 @@
         border: 3px solid;
         border-radius: 10px;
         border-color: #d33838;
-        margin-top: 60px;
         width: 250px;
         height: 180px;
         object-fit: cover;
+        margin-right: 10px;
+        display: inline-block;
+        margin-top: 60px;
+        vertical-align: top;
+      }
+      .image-box {
+        text-align: center;
+      }
+      .image-row {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+        flex-wrap: wrap;
       }
       figcaption {
         font-size: 11px;
         font-style: italic;
-        margin: 5px;
+        margin: 10px;
         margin: auto;
+        margin-top: 10px;
       }
       a {
         color: rgb(255, 151, 151);
@@ -67,23 +81,32 @@
       <a href="">All-Time Favourites (≧ᗜ≦)</a> |
     </nav>
 
-    <section>
-      <img
-        src="https://danielfooddiary.com/wp-content/uploads/2021/08/pantler.jpg"
-      />
-      <div>
-        <figcaption>A slice of strawberry cake (9/10)</figcaption>
+    <div class="image-row">
+      <div class="image-box">
+        <img
+          src="https://danielfooddiary.com/wp-content/uploads/2021/08/pantler.jpg"
+        />
+        <figcaption>Strawberry cake (9/10)</figcaption>
       </div>
-    </section>
 
-    <section>
-      <img
-        src="https://www.biggerbolderbaking.com/wp-content/uploads/2021/03/Chewy-Brownies-Thumbnail-scaled.jpg"
-      />
-      <div>
-        <figcaption>Some brownie slices</figcaption>
+      <div class="image-box">
+        <div class="image-box">
+          <img
+            src="https://www.biggerbolderbaking.com/wp-content/uploads/2021/03/Chewy-Brownies-Thumbnail-scaled.jpg"
+          />
+          <figcaption>Brownie slices (7/10)</figcaption>
+        </div>
       </div>
-    </section>
+
+      <div class="image-box">
+        <div class="image-box">
+          <img
+            src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Mint-Chip-Ice-Cream_EXPS_TOHcom24_15301_DR_06_25_18b.jpg"
+          />
+          <figcaption>Mint chocolate chip ice cream (8/10)</figcaption>
+        </div>
+      </div>
+    </div>
 
     <div style="width: 100%">
       <button>
