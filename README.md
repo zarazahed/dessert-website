@@ -1,5 +1,8 @@
 # This project is called Dessert Rater! 
 
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+
+
 ### What my project is/does:
 > It's a simple site where I can rate desserts and how delicious they look.
 > I added pages for the "About" section and the "All-Time Favourites" section.
